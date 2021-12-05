@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: whitesmoke;
+  color: grey;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -20,7 +20,7 @@ li {
   margin: 0;
   padding: 0;
 
-  color: whitesmoke;
+  color: grey;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -47,7 +47,8 @@ a:active {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
-  background: no-repeat url("M:/WeatherApp_Vanilla/src/flyship.jpg");
+  background: no-repeat
+    url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/elegant-artwork-of-sakura-flowers-japanese-zen-sumi-e-painting-o-awen-fine-art-prints.jpg");
 }
 
 .overview {
@@ -85,7 +86,7 @@ a:active {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: whitesmoke;
+  color: grey;
 }
 
 .weather-forecast-date {

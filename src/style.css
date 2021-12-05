@@ -1,9 +1,9 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: "Courier New", Courier, monospace;
 }
 
 h1 {
-  color: #878787;
+  color: whitesmoke;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -20,7 +20,7 @@ li {
   margin: 0;
   padding: 0;
 
-  color: rgb(135, 135, 135);
+  color: whitesmoke;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -47,6 +47,7 @@ a:active {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  background: no-repeat url("M:/WeatherApp_Vanilla/src/flyship.jpg");
 }
 
 .overview {
@@ -84,7 +85,7 @@ a:active {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #000;
+  color: whitesmoke;
 }
 
 .weather-forecast-date {
@@ -93,7 +94,7 @@ a:active {
 }
 
 .weather-forecast-temperature-min {
-  opacity: 0.5;
+  color: salmon;
 }
 
 .weather-forecast-temperatures {
